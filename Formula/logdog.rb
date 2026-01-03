@@ -25,7 +25,7 @@ class Logdog < Formula
     end
 
     arch = Hardware::CPU.arm? ? "arm64" : "amd64"
-    bin.install "logdog-#{version}-macos-#{arch}" => "logdog"
+    bin.install "logdog-v#{version}-macos-#{arch}" => "logdog"
   end
 
   test do
