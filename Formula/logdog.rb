@@ -8,10 +8,10 @@ class Logdog < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/mikaelreiersolmoen/logdog/releases/download/v#{version}/logdog-v#{version}-macos-arm64.tar.gz"
-      sha256 "8f7c43c843bdb02d97aade413d6a15c7191611ba43779bd1dc89abc503a51bca"
+      sha256 "732ed456811e600de6442a69b3527716af6eef8f9a00ab4e3d24234d9e2b9cb0"
     else
       url "https://github.com/mikaelreiersolmoen/logdog/releases/download/v#{version}/logdog-v#{version}-macos-amd64.tar.gz"
-      sha256 "f74b63ebfc522abf8c2fc6fd56c14ebf0ed749315b4762a82e9330c48f20b92e"
+      sha256 "cfa862d9b4ee6a764bcb32e0788e6c854d431c9891f9842c494def963d8d2d4c"
     end
   end
 
