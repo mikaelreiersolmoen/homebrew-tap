@@ -1,8 +1,8 @@
 class Logdog < Formula
   desc "Text-based interface for viewing and filtering Android logcat stream"
   homepage "https://github.com/mikaelreiersolmoen/logdog"
-  head "https://github.com/mikaelreiersolmoen/logdog.git", branch: "main"
   version "0.2.0"
+  head "https://github.com/mikaelreiersolmoen/logdog.git", branch: "main"
   license "MIT"
 
   on_macos do
@@ -14,7 +14,6 @@ class Logdog < Formula
       sha256 "cfa862d9b4ee6a764bcb32e0788e6c854d431c9891f9842c494def963d8d2d4c"
     end
   end
-
 
   depends_on "go" => :build if build.head?
 
