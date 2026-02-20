@@ -2,7 +2,7 @@ class Logdog < Formula
   desc "Text-based interface for viewing and filtering Android logcat stream"
   homepage "https://github.com/mikaelreiersolmoen/logdog"
   head "https://github.com/mikaelreiersolmoen/logdog.git", branch: "main"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
