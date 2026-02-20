@@ -2,8 +2,8 @@ class Logdog < Formula
   desc "Text-based interface for viewing and filtering Android logcat stream"
   homepage "https://github.com/mikaelreiersolmoen/logdog"
   version "0.2.0"
-  head "https://github.com/mikaelreiersolmoen/logdog.git", branch: "main"
   license "MIT"
+  head "https://github.com/mikaelreiersolmoen/logdog.git", branch: "main"
 
   on_macos do
     if Hardware::CPU.arm?
